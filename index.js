@@ -14,9 +14,21 @@ app.listen(port, () => console.log(`Listening to localhost:${port}\n`) );
 
 const Discord = require("discord.js");
 
-const fs = require("fs");
+const client = new Discord.Client({
 
-const client = new Discord.Client();
+    ws: {
+
+        properties: {
+
+            $browser: "Discord iOS"
+
+        },
+
+    },
+
+});
+
+const fs = require("fs");
 
 client.commands = new Discord.Collection();
 
