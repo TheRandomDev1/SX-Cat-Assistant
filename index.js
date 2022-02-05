@@ -1,4 +1,4 @@
-const { Prefix, Token, Status_Text, Status_Type, Server_Port, Ping_Message } = require("./config.js");
+const { Prefix, Status_Text, Status_Type, Server_Port, Ping_Message } = require("./config.js");
 
 const express = require('express');
 
@@ -164,6 +164,6 @@ client.on("message", async message => {
 
 });
 
-client.login(Token);
+client.login(process.env.Token);
 
 //Coded by SX-Spy-Agent#1377 (DO NOT REMOVE THIS!!!)
