@@ -1,6 +1,9 @@
+![](https://cdn.discordapp.com/avatars/884693064814305302/c59894ebf26330f4b06eed3379d2d713.png)
+
 ## SX Cat Assistant
 
 A bot to help you manage your discord server!
+[![Run on Replit](https://replit.com/badge/github/SX-9/SX-Cat-Assistant)](https://replit.com/github/SX-9/SX-Cat-Assistant)
 
 <br/>
 
