@@ -1,5 +1,4 @@
 exports.Prefix = "sx!";
-exports.Token = process.env.Token;
 exports.Color = "#00e1ff";
 exports.Server_Port = 2030;
 exports.Status_Text = " sx!help";
